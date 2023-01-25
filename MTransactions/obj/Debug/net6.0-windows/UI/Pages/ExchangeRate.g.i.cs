@@ -53,7 +53,7 @@ namespace MTransactions.UI.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MTransactions;component/ui/pages/exchangerate.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MTransactions;V1.0.0.0;component/ui/pages/exchangerate.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\UI\Pages\ExchangeRate.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
