@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\user\PPTX\Transactions\MTransactions\App.xaml
-11407045341
+5-1331328468
 
-5882326172
-194-200944676
-MainWindow.xaml;
+10-350023546
+2531476001281
+MainWindow.xaml;UI\Pages\ExchangeRate.xaml;UI\Pages\Settings.xaml;UI\Private\Currency.xaml;UI\Private\CurrencySetting.xaml;
 
 False
 

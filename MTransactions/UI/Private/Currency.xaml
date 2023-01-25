@@ -1,0 +1,48 @@
+﻿<Page x:Class="MTransactions.UI.Private.Currency"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MTransactions.UI.Private"
+      mc:Ignorable="d" 
+      d:DesignHeight="50" d:DesignWidth="450"
+      Title="Currency"
+      Background="White">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" 
+                   Margin="10,12,0,0" 
+                   x:Name="CharCode"
+                   TextWrapping="Wrap" 
+                   Text="USD" 
+                   VerticalAlignment="Top"
+                   Height="18"
+                   Width="120"/>
+
+        <TextBlock HorizontalAlignment="Left" 
+                   Margin="10,25,0,0" 
+                   x:Name="Scale_Name"
+                   TextWrapping="Wrap" 
+                   Text="1 dollar" 
+                   VerticalAlignment="Top"
+                   Height="13"
+                   Width="120"/>
+
+        <TextBlock HorizontalAlignment="Left" 
+                   Margin="360,0,0,10"
+                   Text="valyuta"
+                   TextWrapping="Wrap" 
+                   VerticalAlignment="Center" 
+                   Height="18" 
+                   Width="80"/>
+
+        <TextBlock HorizontalAlignment="Left" 
+                   Margin="250,0,0,10"
+                   Text="valyuta"
+                   TextWrapping="Wrap" 
+                   VerticalAlignment="Center" 
+                   Height="18" 
+                   Width="80"/>
+
+    </Grid>
+</Page>

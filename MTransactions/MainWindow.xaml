@@ -3,10 +3,65 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:MTransactions"
+        xmlns:local="clr-namespace:MTransactions" 
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow"
+        ResizeMode="CanResize"
+        Height="450"
+        Width="450">
     <Grid>
+
+
+
+            <Label Name="Label1"  
+               Content="Exchange Rate"   
+               Width="235" Height="40"  
+               Canvas.Left="10" 
+               Canvas.Top="5"   
+               FontSize="14" 
+               FontFamily="Georgia"  
+               FontWeight="Bold"
+               Margin="100,0,0,380"/>
+
+            <materialDesign:PackIcon Kind="ArrowLeft"
+                                     Margin="10,10,0,70"
+                                     RenderTransformOrigin="2,20" 
+                                     Height="30" 
+                                     Width="30"/>
+
+            <materialDesign:PackIcon Kind="CogOutline"
+                                     Margin="398,12,0,0"
+                                     RenderTransformOrigin="2,20" 
+                                     Height="30" 
+                                     Width="30"/>
+
+            <DatePicker HorizontalAlignment="Left" 
+                        Margin="450,0,0,0" 
+                        VerticalAlignment="Top"/>
+
+            
+           
+
+        <TextBox HorizontalAlignment="Center" 
+                 Margin="350,45,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="TextBox" 
+                 VerticalAlignment="Top" 
+                 Width="78"/>
+
+        <TextBox HorizontalAlignment="Center" 
+                 Margin="190,45,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="TextBox" 
+                 VerticalAlignment="Top" 
+                 Width="78" TextChanged="TextBox_TextChanged"/>
 
     </Grid>
 </Window>
+
+    
+    
+    
+    
+    
