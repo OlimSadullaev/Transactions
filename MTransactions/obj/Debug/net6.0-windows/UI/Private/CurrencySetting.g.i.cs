@@ -80,7 +80,7 @@ namespace MTransactions.UI.Private {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MTransactions;V1.0.0.0;component/ui/private/currencysetting.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MTransactions;component/ui/private/currencysetting.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\UI\Private\CurrencySetting.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

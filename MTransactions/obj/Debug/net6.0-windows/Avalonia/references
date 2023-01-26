@@ -28,6 +28,8 @@ C:\Users\user\.nuget\packages\avalonia\0.10.0\lib\netcoreapp2.0\Avalonia.Visuals
 C:\Users\user\.nuget\packages\avalonia.win32\0.10.0\lib\netstandard2.0\Avalonia.Win32.dll
 C:\Users\user\.nuget\packages\avalonia.x11\0.10.0\lib\netstandard2.0\Avalonia.X11.dll
 C:\Users\user\.nuget\packages\dynamicdata\6.17.14\lib\netstandard2.0\DynamicData.dll
+C:\Users\user\.nuget\packages\entityframework\6.4.4\lib\netstandard2.1\EntityFramework.dll
+C:\Users\user\.nuget\packages\entityframework\6.4.4\lib\netstandard2.1\EntityFramework.SqlServer.dll
 C:\Users\user\.nuget\packages\harfbuzzsharp\2.6.1.7\lib\netstandard2.0\HarfBuzzSharp.dll
 C:\Users\user\.nuget\packages\jetbrains.annotations\10.3.0\lib\netstandard1.0\JetBrains.Annotations.dll
 C:\Users\user\.nuget\packages\materialdesign.avalonia.packicon\1.25.0\lib\netstandard2.1\MaterialDesign.Avalonia.PackIcon.dll
@@ -38,18 +40,18 @@ C:\Users\user\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.4.0\lib\
 C:\Users\user\.nuget\packages\microsoft.codeanalysis.common\3.4.0\lib\netstandard2.0\Microsoft.CodeAnalysis.dll
 C:\Users\user\.nuget\packages\microsoft.codeanalysis.scripting.common\3.4.0\lib\netstandard2.0\Microsoft.CodeAnalysis.Scripting.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\Microsoft.CSharp.dll
-C:\Users\user\.nuget\packages\microsoft.entityframeworkcore.abstractions\7.0.1\lib\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\user\.nuget\packages\microsoft.entityframeworkcore\7.0.1\lib\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\user\.nuget\packages\microsoft.entityframeworkcore.relational\7.0.1\lib\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\user\.nuget\packages\microsoft.extensions.caching.abstractions\7.0.0\lib\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\user\.nuget\packages\microsoft.extensions.caching.memory\7.0.0\lib\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\user\.nuget\packages\microsoft.extensions.configuration.abstractions\7.0.0\lib\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\user\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\7.0.0\lib\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\user\.nuget\packages\microsoft.extensions.dependencyinjection\7.0.0\lib\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\user\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\lib\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\user\.nuget\packages\microsoft.extensions.logging\7.0.0\lib\net6.0\Microsoft.Extensions.Logging.dll
-C:\Users\user\.nuget\packages\microsoft.extensions.options\7.0.0\lib\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\user\.nuget\packages\microsoft.extensions.primitives\7.0.0\lib\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\user\.nuget\packages\microsoft.entityframeworkcore.abstractions\6.0.13\lib\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\.nuget\packages\microsoft.entityframeworkcore\6.0.13\lib\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\.nuget\packages\microsoft.entityframeworkcore.relational\6.0.13\lib\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\.nuget\packages\microsoft.extensions.caching.abstractions\6.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\.nuget\packages\microsoft.extensions.caching.memory\6.0.1\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\.nuget\packages\microsoft.extensions.configuration.abstractions\6.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\6.0.0\lib\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\.nuget\packages\microsoft.extensions.dependencyinjection\6.0.1\lib\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\lib\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\.nuget\packages\microsoft.extensions.logging\6.0.0\lib\netstandard2.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\.nuget\packages\microsoft.extensions.options\6.0.0\lib\netstandard2.1\Microsoft.Extensions.Options.dll
+C:\Users\user\.nuget\packages\microsoft.extensions.primitives\6.0.0\lib\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\Microsoft.VisualBasic.Core.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\Microsoft.VisualBasic.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\Microsoft.Win32.Primitives.dll
@@ -58,9 +60,10 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\Microso
 C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\6.0.8\ref\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\user\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.39\lib\net5.0-windows7.0\Microsoft.Xaml.Behaviors.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\mscorlib.dll
+C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\ref\MTransactions.Service.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\netstandard.dll
-C:\Users\user\.nuget\packages\npgsql\7.0.1\lib\net6.0\Npgsql.dll
-C:\Users\user\.nuget\packages\npgsql.entityframeworkcore.postgresql\7.0.1\lib\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\user\.nuget\packages\npgsql\6.0.8\lib\net6.0\Npgsql.dll
+C:\Users\user\.nuget\packages\npgsql.entityframeworkcore.postgresql\6.0.8\lib\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\6.0.8\ref\net6.0\PresentationCore.dll
 C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\6.0.8\ref\net6.0\PresentationFramework.Aero.dll
 C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\6.0.8\ref\net6.0\PresentationFramework.Aero2.dll
@@ -95,6 +98,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\System.
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\System.Data.Common.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\System.Data.DataSetExtensions.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\System.Data.dll
+C:\Users\user\.nuget\packages\system.data.sqlclient\4.8.1\ref\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\System.Diagnostics.Contracts.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\System.Diagnostics.Debug.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\System.Diagnostics.DiagnosticSource.dll
@@ -109,7 +113,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\System.
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\System.Diagnostics.Tracing.dll
 C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\6.0.8\ref\net6.0\System.DirectoryServices.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\System.dll
-C:\Users\user\.nuget\packages\system.drawing.common\4.5.0\ref\netstandard2.0\System.Drawing.Common.dll
+C:\Users\user\.nuget\packages\system.drawing.common\4.7.0\ref\netcoreapp3.0\System.Drawing.Common.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\System.Drawing.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\System.Drawing.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\System.Dynamic.Runtime.dll

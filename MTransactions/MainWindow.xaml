@@ -7,14 +7,12 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Title="MainWindow"
-        ResizeMode="CanResize"
+        Loaded="Window_Loaded"
+        ResizeMode="CanMinimize"
         Height="450"
         Width="450">
     <Grid>
-
-
-
-            <Label Name="Label1"  
+        <Label Name="Label1"  
                Content="Exchange Rate"   
                Width="235" Height="40"  
                Canvas.Left="10" 
@@ -24,39 +22,33 @@
                FontWeight="Bold"
                Margin="100,0,0,380"/>
 
-            <materialDesign:PackIcon Kind="ArrowLeft"
+        <materialDesign:PackIcon Kind="ArrowLeft"
                                      Margin="10,10,0,70"
                                      RenderTransformOrigin="2,20" 
                                      Height="30" 
                                      Width="30"/>
 
-            <materialDesign:PackIcon Kind="CogOutline"
+        <materialDesign:PackIcon Kind="CogOutline"
                                      Margin="398,12,0,0"
                                      RenderTransformOrigin="2,20" 
                                      Height="30" 
                                      Width="30"/>
 
-            <DatePicker HorizontalAlignment="Left" 
-                        Margin="450,0,0,0" 
-                        VerticalAlignment="Top"/>
-
-            
-           
-
-        <TextBox HorizontalAlignment="Center" 
-                 Margin="350,45,0,0" 
+        <TextBox HorizontalAlignment="Left" 
+                 Margin="362,45,0,0" 
                  TextWrapping="Wrap" 
-                 Text="TextBox" 
                  VerticalAlignment="Top" 
                  Width="78"/>
 
-        <TextBox HorizontalAlignment="Center" 
-                 Margin="190,45,0,0" 
+        <TextBox HorizontalAlignment="Left" 
+                 Margin="275,45,0,0" 
                  TextWrapping="Wrap" 
-                 Text="TextBox" 
                  VerticalAlignment="Top" 
                  Width="78" TextChanged="TextBox_TextChanged"/>
 
+        <ScrollViewer VerticalAlignment="Bottom" Height="350" ScrollViewer.VerticalScrollBarVisibility="Visible">
+            <ItemsControl x:Name="TransactionList" />
+        </ScrollViewer>
     </Grid>
 </Window>
 

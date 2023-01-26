@@ -1,0 +1,14 @@
+C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\MTransactions.Service.csproj.AssemblyReference.cache
+C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\MTransactions.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\MTransactions.Service.AssemblyInfoInputs.cache
+C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\MTransactions.Service.AssemblyInfo.cs
+C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\MTransactions.Service.csproj.CoreCompileInputs.cache
+C:\Users\user\PPTX\Transactions\MTransactions.Service\bin\Debug\net6.0\MTransactions.Service.deps.json
+C:\Users\user\PPTX\Transactions\MTransactions.Service\bin\Debug\net6.0\MTransactions.Service.runtimeconfig.json
+C:\Users\user\PPTX\Transactions\MTransactions.Service\bin\Debug\net6.0\MTransactions.Service.dll
+C:\Users\user\PPTX\Transactions\MTransactions.Service\bin\Debug\net6.0\MTransactions.Service.pdb
+C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\MTransactions.Service.dll
+C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\refint\MTransactions.Service.dll
+C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\MTransactions.Service.pdb
+C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\MTransactions.Service.genruntimeconfig.cache
+C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\ref\MTransactions.Service.dll
