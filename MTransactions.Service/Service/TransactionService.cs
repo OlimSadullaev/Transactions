@@ -16,7 +16,7 @@ namespace MTransactions.Service.Service
         {
             using (HttpClient client = new HttpClient())
             {
-                var response = await client.GetAsync(ApiConstant.BASE_URL + "01.18.2023");
+                var response = await client.GetAsync(ApiConstant.BASE_URL + DateTime.Now.ToString("MM.dd.yyyy"));
 
                 if (!response.IsSuccessStatusCode)
                 {

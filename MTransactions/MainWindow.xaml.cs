@@ -27,9 +27,11 @@ namespace MTransactions
     {
         private DailyEXratesForViewDTO dailyEXrates;
         private readonly ITransactionService transactionService;
+        
         public MainWindow()
         {
             transactionService = new TransactionService();
+
             InitializeComponent();
         }
 
@@ -58,6 +60,18 @@ namespace MTransactions
                     TransactionList.Items.Add(currency);
                 });
             }
+        }
+
+        private void MainSettings_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            
+        }
+
+        
+
+        private void DateForToday_SourceUpdated(object sender, DataTransferEventArgs e)
+        {
+
         }
     }
 }

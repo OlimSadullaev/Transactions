@@ -18,30 +18,23 @@
                Canvas.Left="10" 
                Canvas.Top="5"   
                FontSize="14" 
-               FontFamily="Georgia"  
+               FontFamily="Georgia"
                FontWeight="Bold"
                Margin="100,0,0,380"/>
-
-        <materialDesign:PackIcon Kind="ArrowLeft"
-                                     Margin="10,10,0,70"
-                                     RenderTransformOrigin="2,20" 
-                                     Height="30" 
-                                     Width="30"/>
-
-        <materialDesign:PackIcon Kind="CogOutline"
-                                     Margin="398,12,0,0"
-                                     RenderTransformOrigin="2,20" 
-                                     Height="30" 
-                                     Width="30"/>
+        
 
         <TextBox HorizontalAlignment="Left" 
-                 Margin="362,45,0,0" 
+                 Margin="347,45,0,0" 
+                 Text="01.31.2022"
+                 x:Name="DateForTomorrov"
                  TextWrapping="Wrap" 
                  VerticalAlignment="Top" 
                  Width="78"/>
 
         <TextBox HorizontalAlignment="Left" 
-                 Margin="275,45,0,0" 
+                 Margin="245,45,0,0" 
+                 Text="01.30.2022"
+                 x:Name="DateForToday"
                  TextWrapping="Wrap" 
                  VerticalAlignment="Top" 
                  Width="78" TextChanged="TextBox_TextChanged"/>
@@ -49,6 +42,23 @@
         <ScrollViewer VerticalAlignment="Bottom" Height="350" ScrollViewer.VerticalScrollBarVisibility="Visible">
             <ItemsControl x:Name="TransactionList" />
         </ScrollViewer>
+        
+        <materialDesign:PackIcon Kind="ArrowLeft"
+                                 Margin="10,10,0,70"
+                                 RenderTransformOrigin="2,20" 
+                                 Height="30" 
+                                 Width="30"/>
+
+        <materialDesign:PackIcon Kind="CogOutline"
+                                 x:Name="MainSettings"
+                                 Margin="398,12,0,0"
+                                 RenderTransformOrigin="2,20" 
+                                 MouseDoubleClick="MainSettings_MouseDoubleClick"
+                                 Height="30" 
+                                 Width="30"/>
+        
+        
+        
     </Grid>
 </Window>
 
