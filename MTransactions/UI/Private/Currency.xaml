@@ -27,14 +27,6 @@
                    Height="13"
                    Width="120"/>
 
-        <TextBlock HorizontalAlignment="Left" 
-                   Margin="360,0,0,10"
-                   Text="Rate"
-                   x:Name="FirstRate"
-                   TextWrapping="Wrap" 
-                   VerticalAlignment="Center" 
-                   Height="18" 
-                   Width="80"/>
 
         <TextBlock HorizontalAlignment="Left" 
                    Margin="250,0,0,10"

@@ -55,7 +55,7 @@ namespace MTransactions
                     Currency currency = new Currency();
                     currency.CharCode.Text = i.CharCode;
                     currency.Scale_Name.Text = i.Scale + " " + i.Name;
-                    currency.FirstRate.Text = i.Rate.ToString();
+                    //currency.FirstRate.Text = i.Rate.ToString();
                     currency.SecondRate.Text = i.Rate.ToString();
                     TransactionList.Items.Add(currency);
                 });
