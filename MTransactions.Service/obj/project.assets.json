@@ -691,6 +691,16 @@
             "rid": "win"
           }
         }
+      },
+      "MTransaction.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MTransaction.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MTransaction.Domain.dll": {}
+        }
       }
     }
   },
@@ -1879,11 +1889,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "MTransaction.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MTransaction.Domain/MTransaction.Domain.csproj",
+      "msbuildProject": "../MTransaction.Domain/MTransaction.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "EntityFramework >= 6.4.4",
+      "MTransaction.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.13",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.8"
@@ -1920,7 +1936,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\PPTX\\Transactions\\MTransaction.Domain\\MTransaction.Domain.csproj": {
+              "projectPath": "C:\\Users\\user\\PPTX\\Transactions\\MTransaction.Domain\\MTransaction.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,10 +1,9 @@
-﻿using MTransactions.Service.DTOs;
+﻿using MTransaction.Domain.Models;
 
 namespace MTransactions.Service.Interface
 {
     public interface ITransactionService
     {
-        ValueTask<Response<DailyEXratesForViewDTO>> GetAllAsync();
-        ValueTask<Response<DailyEXratesForViewDTO>> GetAsync(DatesForViewDTO datesForViewDTO);
+        ValueTask<Response<DailyEXratesForViewDTO>> GetAllAsync(string Date);
     }
 }

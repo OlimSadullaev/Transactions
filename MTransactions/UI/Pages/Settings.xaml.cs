@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using MTransaction.Domain.Models;
+using MTransactions.UI.Private;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace MTransactions.UI.Pages
 {
@@ -23,6 +12,22 @@ namespace MTransactions.UI.Pages
         public Settings()
         {
             InitializeComponent();
+        }
+
+        public DailyEXratesForViewDTO EXrates { get; set; }
+
+        private async void Page_Loaded(object sender, System.Windows.RoutedEventArgs e)
+        {
+            foreach(var item in EXrates?.Currency)
+            {
+                await this.Dispatcher.InvokeAsync(() => 
+                {
+                    CurrencySetting currencySettings = new CurrencySetting();
+                    currencySettings.CharCode.Text = item.CharCode;
+                    currencySettings.Scale_Name.Text = item.Name;
+                    TransactionList.Items.Add(currencySettings);
+                });
+            }
         }
     }
 }

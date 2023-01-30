@@ -60,8 +60,10 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\Microso
 C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\6.0.8\ref\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\user\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.39\lib\net5.0-windows7.0\Microsoft.Xaml.Behaviors.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\mscorlib.dll
+C:\Users\user\PPTX\Transactions\MTransaction.Domain\obj\Debug\net6.0\ref\MTransaction.Domain.dll
 C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\ref\MTransactions.Service.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.8\ref\net6.0\netstandard.dll
+C:\Users\user\.nuget\packages\newtonsoft.json\13.0.2\lib\net6.0\Newtonsoft.Json.dll
 C:\Users\user\.nuget\packages\npgsql\6.0.8\lib\net6.0\Npgsql.dll
 C:\Users\user\.nuget\packages\npgsql.entityframeworkcore.postgresql\6.0.8\lib\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\6.0.8\ref\net6.0\PresentationCore.dll

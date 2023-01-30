@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="AppSettings\appSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="AppSettings\appSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="MaterialDesign.Avalonia.PackIcon" Version="1.25.0" />
     <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
@@ -15,10 +23,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.8" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MTransaction.Domain\MTransaction.Domain.csproj" />
     <ProjectReference Include="..\MTransactions.Service\MTransactions.Service.csproj" />
   </ItemGroup>
 

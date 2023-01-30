@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTransactions", "MTransacti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTransactions.Service", "..\MTransactions.Service\MTransactions.Service.csproj", "{7E06E545-A235-4CAC-B569-6A3B2728B20E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTransaction.Domain", "..\MTransaction.Domain\MTransaction.Domain.csproj", "{D7A7B9BD-8DB4-49CB-9879-57F1ACCC15ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7E06E545-A235-4CAC-B569-6A3B2728B20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E06E545-A235-4CAC-B569-6A3B2728B20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E06E545-A235-4CAC-B569-6A3B2728B20E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A7B9BD-8DB4-49CB-9879-57F1ACCC15ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A7B9BD-8DB4-49CB-9879-57F1ACCC15ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A7B9BD-8DB4-49CB-9879-57F1ACCC15ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A7B9BD-8DB4-49CB-9879-57F1ACCC15ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,22 +1,15 @@
-﻿using MTransactions.Service.DTOs;
+﻿using MTransaction.Domain.Models;
 using MTransactions.Service.Interface;
 using MTransactions.Service.Service;
+using MTransactions.UI.Pages;
 using MTransactions.UI.Private;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using System.Transactions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace MTransactions
 {
@@ -27,26 +20,25 @@ namespace MTransactions
     {
         private DailyEXratesForViewDTO dailyEXrates;
         private readonly ITransactionService transactionService;
-        
+
         public MainWindow()
         {
             transactionService = new TransactionService();
-
             InitializeComponent();
+            DateForToday.Text = DateTime.Now.ToString("MM.dd.yyyy");
+            DateForTomorrov.Text = (DateTime.Now - TimeSpan.FromDays(1)).ToString("MM.dd.yyyy");
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
 
         private async void Window_Loaded(object sender, RoutedEventArgs e)
         {
             TransactionList.Items.Clear();
-            dailyEXrates = (await transactionService.GetAllAsync()).Value;
-            await LoadTransactions();
+            dailyEXrates = (await transactionService.GetAllAsync(DateForToday.Text)).Value;
+            await LoadTodaysTransactions();
+            dailyEXrates = (await transactionService.GetAllAsync(DateForTomorrov.Text)).Value;
+            await LoadTomorrovsTransactions();
         }
-        private async ValueTask LoadTransactions()
+        private async ValueTask LoadTodaysTransactions()
         {
             foreach (var i in dailyEXrates.Currency)
             {
@@ -55,23 +47,39 @@ namespace MTransactions
                     Currency currency = new Currency();
                     currency.CharCode.Text = i.CharCode;
                     currency.Scale_Name.Text = i.Scale + " " + i.Name;
-                    currency.FirstRate.Text = i.Rate.ToString();
                     currency.SecondRate.Text = i.Rate.ToString();
                     TransactionList.Items.Add(currency);
                 });
             }
         }
-
-        private void MainSettings_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private async ValueTask LoadTomorrovsTransactions()
         {
-            
+            int index = 0;
+            foreach (var i in TransactionList.Items)
+            {
+                await this.Dispatcher.InvokeAsync(() => 
+                {
+                    var currensy = i as Currency;
+                    if (index == dailyEXrates.Currency.Length)
+                        return;
+                    currensy.FirstRate.Text = dailyEXrates.Currency.ElementAt(index).Rate.ToString();
+                    index++;
+                });
+            }
         }
 
-        
-
-        private void DateForToday_SourceUpdated(object sender, DataTransferEventArgs e)
+        private void Date_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            var textBox = sender as TextBox;
+            DateTime date;
+            if (DateTime.TryParse(textBox.Text, out date))
+                Window_Loaded(sender, e);
+        }
+        private void SettingsButton_Click(object sender, RoutedEventArgs e)
+        {
+            Settings settings = new Settings();
+            settings.EXrates = dailyEXrates;
+            SettingsFrame.Content = settings;
         }
     }
 }

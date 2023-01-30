@@ -9,6 +9,7 @@
       "MTransactions.Service/1.0.0": {
         "dependencies": {
           "EntityFramework": "6.4.4",
+          "MTransaction.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.13",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.8"
@@ -426,6 +427,11 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "MTransaction.Domain/1.0.0": {
+        "runtime": {
+          "MTransaction.Domain.dll": {}
+        }
       }
     }
   },
@@ -714,6 +720,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "MTransaction.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

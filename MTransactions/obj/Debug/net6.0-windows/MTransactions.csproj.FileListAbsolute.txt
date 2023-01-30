@@ -1,6 +1,5 @@
 C:\Users\user\PPTX\Transactions\MTransactions\obj\Debug\net6.0-windows\MTransactions.csproj.AssemblyReference.cache
 C:\Users\user\PPTX\Transactions\MTransactions\obj\Debug\net6.0-windows\MainWindow.g.cs
-C:\Users\user\PPTX\Transactions\MTransactions\obj\Debug\net6.0-windows\UI\Pages\ExchangeRate.g.cs
 C:\Users\user\PPTX\Transactions\MTransactions\obj\Debug\net6.0-windows\UI\Pages\Settings.g.cs
 C:\Users\user\PPTX\Transactions\MTransactions\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\user\PPTX\Transactions\MTransactions\obj\Debug\net6.0-windows\MTransactions_MarkupCompile.cache
@@ -29,7 +28,6 @@ C:\Users\user\PPTX\Transactions\MTransactions\bin\Debug\net6.0-windows\Npgsql.dl
 C:\Users\user\PPTX\Transactions\MTransactions\bin\Debug\net6.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\user\PPTX\Transactions\MTransactions\obj\Debug\net6.0-windows\App.baml
 C:\Users\user\PPTX\Transactions\MTransactions\obj\Debug\net6.0-windows\MainWindow.baml
-C:\Users\user\PPTX\Transactions\MTransactions\obj\Debug\net6.0-windows\UI\Pages\ExchangeRate.baml
 C:\Users\user\PPTX\Transactions\MTransactions\obj\Debug\net6.0-windows\UI\Pages\Settings.baml
 C:\Users\user\PPTX\Transactions\MTransactions\obj\Debug\net6.0-windows\MTransactions.g.resources
 C:\Users\user\PPTX\Transactions\MTransactions\obj\Debug\net6.0-windows\MTransactions.GeneratedMSBuildEditorConfig.editorconfig
@@ -171,3 +169,6 @@ C:\Users\user\PPTX\Transactions\MTransactions\bin\Debug\net6.0-windows\runtimes\
 C:\Users\user\PPTX\Transactions\MTransactions\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\user\PPTX\Transactions\MTransactions\bin\Debug\net6.0-windows\MTransactions.Service.dll
 C:\Users\user\PPTX\Transactions\MTransactions\bin\Debug\net6.0-windows\MTransactions.Service.pdb
+C:\Users\user\PPTX\Transactions\MTransactions\bin\Debug\net6.0-windows\MTransaction.Domain.dll
+C:\Users\user\PPTX\Transactions\MTransactions\bin\Debug\net6.0-windows\MTransaction.Domain.pdb
+C:\Users\user\PPTX\Transactions\MTransactions\bin\Debug\net6.0-windows\Newtonsoft.Json.dll

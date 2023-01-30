@@ -12,3 +12,6 @@ C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\refint\MT
 C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\MTransactions.Service.pdb
 C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\MTransactions.Service.genruntimeconfig.cache
 C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\ref\MTransactions.Service.dll
+C:\Users\user\PPTX\Transactions\MTransactions.Service\bin\Debug\net6.0\MTransaction.Domain.dll
+C:\Users\user\PPTX\Transactions\MTransactions.Service\bin\Debug\net6.0\MTransaction.Domain.pdb
+C:\Users\user\PPTX\Transactions\MTransactions.Service\obj\Debug\net6.0\MTransactions.Service.csproj.CopyComplete

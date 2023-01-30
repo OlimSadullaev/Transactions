@@ -1,0 +1,12 @@
+C:\Users\user\PPTX\Transactions\MTransaction.Domain\bin\Debug\net6.0\MTransaction.Domain.deps.json
+C:\Users\user\PPTX\Transactions\MTransaction.Domain\bin\Debug\net6.0\MTransaction.Domain.dll
+C:\Users\user\PPTX\Transactions\MTransaction.Domain\bin\Debug\net6.0\MTransaction.Domain.pdb
+C:\Users\user\PPTX\Transactions\MTransaction.Domain\obj\Debug\net6.0\MTransaction.Domain.csproj.AssemblyReference.cache
+C:\Users\user\PPTX\Transactions\MTransaction.Domain\obj\Debug\net6.0\MTransaction.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\PPTX\Transactions\MTransaction.Domain\obj\Debug\net6.0\MTransaction.Domain.AssemblyInfoInputs.cache
+C:\Users\user\PPTX\Transactions\MTransaction.Domain\obj\Debug\net6.0\MTransaction.Domain.AssemblyInfo.cs
+C:\Users\user\PPTX\Transactions\MTransaction.Domain\obj\Debug\net6.0\MTransaction.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\PPTX\Transactions\MTransaction.Domain\obj\Debug\net6.0\MTransaction.Domain.dll
+C:\Users\user\PPTX\Transactions\MTransaction.Domain\obj\Debug\net6.0\refint\MTransaction.Domain.dll
+C:\Users\user\PPTX\Transactions\MTransaction.Domain\obj\Debug\net6.0\MTransaction.Domain.pdb
+C:\Users\user\PPTX\Transactions\MTransaction.Domain\obj\Debug\net6.0\ref\MTransaction.Domain.dll

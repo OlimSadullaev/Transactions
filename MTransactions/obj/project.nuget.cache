@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YR5GqgzM8T8G7bUeD5AWdiVOKxP5chM5SsMVMNpdvHepWxXHjbA5qO/kei9D6sofi2Yslr2Q8r8EzgVd0x1ZiA==",
+  "dgSpecHash": "TwnIN6i43ZxHRMzw8z43tLr10wSNanjuhsPxvjO4VteSmRyGbcC45CFkCNgUVpYIL1cIGkubKGv+9VE5fD38fg==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\PPTX\\Transactions\\MTransactions\\MTransactions.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\npgsql\\6.0.8\\npgsql.6.0.8.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.8\\npgsql.entityframeworkcore.postgresql.6.0.8.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\reactiveui\\12.1.1\\reactiveui.12.1.1.nupkg.sha512",
