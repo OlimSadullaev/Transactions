@@ -32,7 +32,7 @@ namespace MTransactions.UI.Private
 
             var existEXRate = exRates.FirstOrDefault(e => e.CharCode == CharCode.Text);
             if (existEXRate != null)
-            {
+                {
                 exRates.Remove(existEXRate);
                 existEXRate.IsChecked = (bool)showoff.IsChecked;
                 exRates.Add(existEXRate);
